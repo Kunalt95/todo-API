@@ -1,24 +1,14 @@
-# README
+# Todo API - built using Ruby/Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Disclaimer:** Followed couple of tutorials to help build this. Learning still :) 
 
-Things you may want to cover:
+# Commands
+```
+$ http :3000/todos
 
-* Ruby version
+$ http POST :3000/todos title=Kunal created_by=1
 
-* System dependencies
+$ http PUT :3000/todos/1 title=John
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ http DELETE :3000/todos/1
+```
