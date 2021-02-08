@@ -22,7 +22,7 @@ Delete:
 ```
 $ http DELETE :3000/todos/1
 ```
-
+---
 ### Todo-Items API
 
 Show:
